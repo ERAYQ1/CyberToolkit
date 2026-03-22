@@ -1,7 +1,6 @@
 import os
 import csv
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QPushButton, QMessageBox, QHBoxLayout
-from PySide6.QtCore import Qt
 from utils.database import db
 from utils.pdf_report import export_pdf_report
 from .dashboard import create_info_box

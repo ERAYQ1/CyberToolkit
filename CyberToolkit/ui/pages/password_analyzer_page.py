@@ -1,6 +1,5 @@
-from PySide6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel, 
-                               QLineEdit, QFrame, QListWidget)
-from PySide6.QtCore import Qt
+from PySide6.QtWidgets import (QWidget, QVBoxLayout, QLabel, QLineEdit, 
+                               QFrame, QListWidget)
 from PySide6.QtGui import QFont
 
 from modules.password_analyzer import PasswordAnalyzer

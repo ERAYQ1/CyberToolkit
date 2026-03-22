@@ -1,6 +1,5 @@
 from PySide6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel, 
                                QLineEdit, QPushButton, QListWidget, QMessageBox)
-from PySide6.QtCore import Qt
 from PySide6.QtGui import QFont
 
 from modules.firewall_simulator import FirewallSimulator

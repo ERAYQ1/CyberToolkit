@@ -1,27 +1,35 @@
-# Python kaynaklı geçici ve derlenmiş dosyalar
+# Python artifacts
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
+*.pyd
 
-# Sanal ortamlar
+# Application specific
+data/
+logs/
+reports/
+*.pdf
+*.csv
+*.log
+
+# Environments
+.env
+.venv
 env/
 venv/
-.env/
+ENV/
 
-# Derleme / Paketleme dizinleri
-build/
-dist/
-*.egg-info/
-
-# PyInstaller dosyaları
-*.spec
-
-# IDE ve OS dosyaları
-.idea/
+# IDE Workspace integration
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Data
 .DS_Store
 Thumbs.db
 
-# Uygulamaya özel veritabanı ve loglar
-data/
+# Deployment
+build/
+dist/
+*.spec

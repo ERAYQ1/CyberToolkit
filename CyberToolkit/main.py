@@ -1,9 +1,6 @@
 import sys
-import os
 from PySide6.QtWidgets import QApplication
 from ui.main_window import MainWindow, LoginWindow
-from ui.themes import get_theme
-from utils.database import db
 
 # Force the working directory logic if needed, but not necessary here
 

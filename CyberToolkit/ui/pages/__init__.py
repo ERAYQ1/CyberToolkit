@@ -18,23 +18,20 @@ from ui.pages.system_info import SystemInfoPage
 from ui.pages.text_encryptor import TextEncryptorPage
 from ui.pages.password_generator import PasswordGeneratorPage
 
+# New Security Modules
+from ui.pages.hosts_blocker import HostsBlockerPage
+from ui.pages.malware_scanner import MalwareScannerPage
+from ui.pages.cam_mic_monitor import CamMicMonitorPage
+from ui.pages.honeypot import HoneypotPage
+from ui.pages.usb_vaccine import USBVaccinePage
+from ui.pages.win_hardening import WindowsHardeningPage
+
 __all__ = [
-    "DashboardPage",
-    "PortScannerPage",
-    "NetworkScannerPage",
-    "PasswordAnalyzerPage",
-    "ConnectionMonitorPage",
-    "ScanHistoryPage",
-    "ReportsPage",
-    "SettingsPage",
-    "HashGeneratorPage",
-    "Base64ToolPage",
-    "PingToolPage",
-    "MacToolPage",
-    "UrlToolPage",
-    "SubnetCalculatorPage",
-    "DnsLookupPage",
-    "SystemInfoPage",
-    "TextEncryptorPage",
-    "PasswordGeneratorPage"
+    "DashboardPage", "PortScannerPage", "NetworkScannerPage", "PasswordAnalyzerPage",
+    "ConnectionMonitorPage", "ScanHistoryPage", "ReportsPage", "SettingsPage",
+    "HashGeneratorPage", "Base64ToolPage", "PingToolPage", "MacToolPage",
+    "UrlToolPage", "SubnetCalculatorPage", "DnsLookupPage", "SystemInfoPage",
+    "TextEncryptorPage", "PasswordGeneratorPage",
+    "HostsBlockerPage", "MalwareScannerPage", "CamMicMonitorPage", "HoneypotPage",
+    "USBVaccinePage", "WindowsHardeningPage"
 ]

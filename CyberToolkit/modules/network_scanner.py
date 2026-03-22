@@ -3,7 +3,6 @@ import threading
 import subprocess
 import re
 import ipaddress
-import time
 from PySide6.QtCore import QObject, Signal
 
 class NetworkScanner(QObject):

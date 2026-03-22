@@ -1,7 +1,6 @@
 import os
 from PySide6.QtWidgets import (QWidget, QVBoxLayout, QLabel, 
                                QPushButton, QMessageBox)
-from PySide6.QtCore import Qt
 from PySide6.QtGui import QFont
 
 from modules.report_generator import ReportGenerator

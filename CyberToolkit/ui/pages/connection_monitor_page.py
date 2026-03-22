@@ -1,6 +1,5 @@
 from PySide6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel, 
                                QTableWidget, QTableWidgetItem, QHeaderView, QPushButton)
-from PySide6.QtCore import Qt
 from PySide6.QtGui import QFont, QColor
 
 from modules.connection_monitor import ConnectionMonitorWorker

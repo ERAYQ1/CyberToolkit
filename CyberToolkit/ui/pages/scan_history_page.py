@@ -1,6 +1,5 @@
 from PySide6.QtWidgets import (QWidget, QVBoxLayout, QLabel, 
                                QTreeWidget, QTreeWidgetItem, QPushButton, QHBoxLayout)
-from PySide6.QtCore import Qt
 from PySide6.QtGui import QFont
 
 class ScanHistoryPage(QWidget):

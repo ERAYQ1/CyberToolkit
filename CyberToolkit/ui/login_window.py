@@ -1,6 +1,5 @@
-import os
-from PySide6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel, 
-                               QLineEdit, QPushButton, QStackedWidget, QMessageBox, QFrame)
+from PySide6.QtWidgets import (QWidget, QVBoxLayout, QLabel, QLineEdit, 
+                               QPushButton, QStackedWidget, QMessageBox, QFrame)
 from PySide6.QtCore import Qt, Signal
 from PySide6.QtGui import QFont
 

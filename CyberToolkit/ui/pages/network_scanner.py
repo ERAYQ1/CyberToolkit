@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QProgressBar, QTableWidget, QTableWidgetItem, QHeaderView
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QPushButton, QProgressBar, QTableWidget, QTableWidgetItem, QHeaderView
 from PySide6.QtCore import Qt
 from modules.network_scanner import NetworkScanner
 from utils.database import db

@@ -1,5 +1,5 @@
 import hashlib
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QTextEdit, QHBoxLayout, QPushButton, QMessageBox
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QTextEdit
 
 class BaseToolPage(QWidget):
     """A helper base tracking the info box logic."""

@@ -1,6 +1,6 @@
 import random
 import string
-from PySide6.QtWidgets import QLineEdit, QHBoxLayout, QPushButton, QSlider, QLabel
+from PySide6.QtWidgets import QLineEdit, QPushButton, QSlider, QLabel
 from PySide6.QtCore import Qt
 from .hash_generator import BaseToolPage
 

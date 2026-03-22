@@ -1,7 +1,7 @@
 import subprocess
 import threading
 from PySide6.QtWidgets import QLineEdit, QHBoxLayout, QPushButton, QTextEdit
-from PySide6.QtCore import QObject, Signal, Qt
+from PySide6.QtCore import QObject, Signal
 from .hash_generator import BaseToolPage
 
 class PingWorker(QObject):

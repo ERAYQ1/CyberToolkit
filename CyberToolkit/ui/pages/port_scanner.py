@@ -1,5 +1,4 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton, QProgressBar, QTableWidget, QTableWidgetItem, QHeaderView, QMessageBox
-from PySide6.QtCore import Qt
 from modules.port_scanner import PortScanner
 from utils.database import db
 from .dashboard import create_info_box

@@ -1,5 +1,4 @@
 from PySide6.QtWidgets import QSystemTrayIcon, QStyle, QApplication
-from PySide6.QtGui import QIcon
 
 class Notifier:
     """

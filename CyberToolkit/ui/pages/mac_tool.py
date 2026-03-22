@@ -1,5 +1,5 @@
 import random
-from PySide6.QtWidgets import QLineEdit, QHBoxLayout, QPushButton, QLabel, QFormLayout
+from PySide6.QtWidgets import QLineEdit, QPushButton, QLabel, QFormLayout
 from .hash_generator import BaseToolPage
 
 class MacToolPage(BaseToolPage):

@@ -1,6 +1,6 @@
 import psutil
 import platform
-from PySide6.QtWidgets import QTextEdit, QPushButton, QVBoxLayout
+from PySide6.QtWidgets import QTextEdit, QPushButton
 from .hash_generator import BaseToolPage
 
 class SystemInfoPage(BaseToolPage):

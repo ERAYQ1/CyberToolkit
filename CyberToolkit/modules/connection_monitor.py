@@ -1,5 +1,4 @@
 import psutil
-import socket
 import threading
 import time
 from PySide6.QtCore import QObject, Signal

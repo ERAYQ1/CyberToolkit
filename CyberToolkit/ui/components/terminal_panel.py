@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QPlainTextEdit, QLineEdit
-from PySide6.QtCore import Qt, Signal
+from PySide6.QtCore import Signal
 from PySide6.QtGui import QFont, QColor, QTextCursor, QTextCharFormat
 
 class TerminalPanel(QWidget):
