@@ -1,0 +1,27 @@
+# Python kaynaklı geçici ve derlenmiş dosyalar
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Sanal ortamlar
+env/
+venv/
+.env/
+
+# Derleme / Paketleme dizinleri
+build/
+dist/
+*.egg-info/
+
+# PyInstaller dosyaları
+*.spec
+
+# IDE ve OS dosyaları
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Uygulamaya özel veritabanı ve loglar
+data/
