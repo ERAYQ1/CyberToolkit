@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QHBoxLayout, QLabel, QPushButton, QTextEdit
-from ui.pages.hash_generator import BaseToolPage # Reuse the built-in UI base class for padding and layout
+from ui.components.base_tool_page import BaseToolPage
 from modules.hosts_blocker import HostsBlocker
 
 class HostsBlockerPage(BaseToolPage):

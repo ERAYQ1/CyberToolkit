@@ -1,35 +1,40 @@
-# Python artifacts
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.pyd
+*.pyo
 
-# Application specific
+# Application Data
 data/
 logs/
 reports/
 *.pdf
 *.csv
 *.log
+*.enc
 
-# Environments
+# Virtual Environments
 .env
 .venv
 env/
 venv/
 ENV/
 
-# IDE Workspace integration
+# IDE / Editor
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
-# OS Data
+# OS Generated
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Deployment
+# Build Artifacts
 build/
 dist/
 *.spec
+*.egg-info/

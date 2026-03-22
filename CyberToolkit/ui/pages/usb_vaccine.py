@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QHBoxLayout, QLabel, QPushButton, QTextEdit
-from ui.pages.hash_generator import BaseToolPage
+from ui.components.base_tool_page import BaseToolPage
 from modules.usb_vaccine import USBVaccine
 
 class USBVaccinePage(BaseToolPage):
